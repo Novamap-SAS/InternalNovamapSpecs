@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
 
   s.public_header_files = 'Classes/NovaAuthentication.h',
                           'Classes/INovaAuthentication.h',
-			   'Classes/NVAuthenticationViewController.h',
+			              'Classes/NVAuthenticationViewController.h',
                           'Classes/Models/Base/NVAgent.h',
                           'Classes/Models/Common/*.h'
 
@@ -32,6 +32,6 @@ Pod::Spec.new do |s|
   end
 
   s.dependency 'NSData+Base64', '1.0.0'
-  s.dependency 'NVLibCore', '0.0.1'
+  s.dependency 'NVLibCore', '0.0.2'
 
 end
