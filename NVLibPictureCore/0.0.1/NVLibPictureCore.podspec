@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.summary      = 'Provide some utilities tools and additional functions in NOVAMAP developpement context.'
   s.description  = 'Internal component  library NOVAMAP for provide access utility tools and additional functions on manipulating sending uploading functionaly.'
 
-  s.source       =  { :git => "https://bitbucket.org/tdelepine/nova-lib-qrreader.git", :tag => s.version.to_s }
+  s.source       =  { :git => "https://bitbucket.org/tdelepine/nova-li-picture-core.git", :tag => s.version.to_s }
 
   s.platform              = :ios, '7.0'
   s.ios.deployment_target = '7.0'
