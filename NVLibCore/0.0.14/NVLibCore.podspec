@@ -21,6 +21,6 @@ Pod::Spec.new do |s|
   s.frameworks = 'Foundation'
 
   s.dependency 'NSData+Base64', '1.0.0'
-  s.dependency 'Reachability',  '3.2'
+  s.dependency 'Reachability',  '3.1.1'
 
 end
